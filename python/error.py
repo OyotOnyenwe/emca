@@ -25,6 +25,3 @@ print('Absolute Error:')
 print(d)
 print('Relative Error (%):')
 print(p)
-
-#this is a test edit from the macbook
-#this is a test edit from the PC
