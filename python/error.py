@@ -5,23 +5,31 @@
 # p = relative error as a percent
 # s = sigfigs
 # sd = significant decimal places
+# u = units
 
 print('Accepted Value: ')
-a = int(input())
+a = float(input())
 print('Result: ')
-x = int(input())
+x = float(input())
+print('Units:')
+u = input()
 print('Lowest number of Significant Figures: ')
-s = int(input())
+s = float(input())
 print('Lowest number of Significant Decimal Places: ')
-sd = int(input())
+sd = float(input())
 
 d = abs(x - a)
-round(d, sd)
+#d = int(d)
+#round(d, sd)
 r = d / a
-round(r, s)
+#r = int(r)
+#round(r, s)
 p = r * 100
 
 print('Absolute Error:')
-print(d)
-print('Relative Error (%):')
-print(p)
+print(d, u)
+print('Relative Error:')
+print(p,'%')
+
+#this is a test edit from the linux machine
+#this is a test edit from the macos machine
