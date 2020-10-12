@@ -3,9 +3,10 @@
 # d = absoulute error
 # r = relative error
 # p = relative error as a percent
+# u = units
+
 # s = sigfigs
 # sd = significant decimal places
-# u = units
 
 print('Accepted Value: ')
 a = float(input())
