@@ -31,3 +31,5 @@ print(d, u)
 print('Relative Error:')
 print(p,'%')
 
+#the comment lines are my attempt at significant figure implementation
+#the rest of it is fully functional without sigfigs
