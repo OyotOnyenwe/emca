@@ -1,6 +1,14 @@
 import turtle
 import random
 import math
+import tkinter as TK
+import types
+import sys
+import inspect
+import time
+from os.path import isfile, split, join
+from copy import deepcopy
+from tkinter import simpledialog
 
 # Distance function
 def distance(x1, y1, x2, y2):
