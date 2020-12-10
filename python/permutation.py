@@ -3,7 +3,7 @@
 import math
 
 print('Calculator Mode')
-print('Input 1 for Permutation or 2 for Combination')
+print('Input "1" for Permutation or "2" for Combination')
 mode = float(input())
 
 
@@ -21,8 +21,7 @@ if mode == 1:
 
     print('Number of Permutations:')
     print(result)
-
-if mode == 2:
+elif mode == 2:
     print('C(n,r)')
     print('n:')
     n = float(input())
@@ -38,7 +37,6 @@ if mode == 2:
     
     print('Number of Combinations:')
     print(result)
-
 else:
     print('Invalid Input')
 
