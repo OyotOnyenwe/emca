@@ -1,4 +1,4 @@
-# permutation calculator
+# permutation & combination calculator
 
 import math
 
