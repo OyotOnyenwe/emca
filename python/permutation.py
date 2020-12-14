@@ -6,7 +6,6 @@ print('Calculator Mode')
 print('Input "1" for Permutation or "2" for Combination')
 mode = float(input())
 
-
 if mode == 1:
     print('P(n,r)')
     print('n:')
