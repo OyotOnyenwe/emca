@@ -32,7 +32,7 @@ elif mode == 2:
     denominator = math.factorial(difference)
     rfactorial = math.factorial(r)
     cdenominator = denominator * rfactorial
-    result = numerator / denominator
+    result = numerator / cdenominator
     
     print('Number of Combinations:')
     print(result)
