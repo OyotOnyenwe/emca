@@ -4,14 +4,14 @@ import math
 
 print('Calculator Mode')
 print('Input "1" for Permutation or "2" for Combination')
-mode = float(input())
+mode = int(input())
 
 if mode == 1:
     print('P(n,r)')
     print('n:')
-    n = float(input())
+    n = int(input())
     print('r:')
-    r = float(input())
+    r = int(input())
 
     difference = n - r
     numerator = math.factorial(n)
@@ -23,9 +23,9 @@ if mode == 1:
 elif mode == 2:
     print('C(n,r)')
     print('n:')
-    n = float(input())
+    n = int(input())
     print('r:')
-    r = float(input())
+    r = int(input())
 
     difference = n - r
     numerator = math.factorial(n)
