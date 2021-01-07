@@ -8,12 +8,15 @@ card4 = random.randint(0,52)
 card5 = random.randint(0,52)
 
 if card1 == card2 or card3 or card4 or card5:
-    
     print('equal')
 elif card2 == card1 or card3 or card4 or card5:
-
     print('equal')
-elif card3 ==
+elif card3 == card1 or card2 or card4 or card5:
+    print('equal')
+elif card4 == card1 or card2 or card3 or card5:
+    print('equal')
+elif card5 == card1 or card2 or card3 or card4:
+    print('equal')
 else:
 
     print("The first card is:", card1)
