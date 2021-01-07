@@ -25,7 +25,3 @@ else:
     print("The fourth card is:", card4)
     print("The fifth card is:", card5)
 
-
-
-
-
