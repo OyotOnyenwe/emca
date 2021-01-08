@@ -1,27 +1,21 @@
 
 import random
 
-card1 = random.randint(0,52)
-card2 = random.randint(0,52)
-card3 = random.randint(0,52)
-card4 = random.randint(0,52)
-card5 = random.randint(0,52)
+number1 = random.choice(('ace',2,3,4,5,6,7,8,9,10,'jack','queen','king'))
+number2 = random.choice(('ace',2,3,4,5,6,7,8,9,10,'jack','queen','king'))
+number3 = random.choice(('ace',2,3,4,5,6,7,8,9,10,'jack','queen','king'))
+number4 = random.choice(('ace',2,3,4,5,6,7,8,9,10,'jack','queen','king'))
+number5 = random.choice(('ace',2,3,4,5,6,7,8,9,10,'jack','queen','king'))
 
-if card1 == card2 or card3 or card4 or card5:
-    print('equal')
-elif card2 == card1 or card3 or card4 or card5:
-    print('equal')
-elif card3 == card1 or card2 or card4 or card5:
-    print('equal')
-elif card4 == card1 or card2 or card3 or card5:
-    print('equal')
-elif card5 == card1 or card2 or card3 or card4:
-    print('equal')
-else:
+suit1 = random.choice(('hearts','diamonds','clubs','spades'))
+suit2 = random.choice(('hearts','diamonds','clubs','spades'))
+suit3 = random.choice(('hearts','diamonds','clubs','spades'))
+suit4 = random.choice(('hearts','diamonds','clubs','spades'))
+suit5 = random.choice(('hearts','diamonds','clubs','spades'))
 
-    print("The first card is:", card1)
-    print("The second card is:", card2)
-    print("The third card is:", card3)
-    print("The fourth card is:", card4)
-    print("The fifth card is:", card5)
+print('the 1st card is the', number1, 'of', suit1)
+print('the 2nd card is the', number2, 'of', suit2)
+print('the 3rd card is the', number3, 'of', suit3)
+print('the 4th card is the', number4, 'of', suit4)
+print('the 5th card is the', number5, 'of', suit5)
 
