@@ -1,3 +1,4 @@
+#program to draw 5 cards from a standard 52 deck of cards
 
 import random
 
