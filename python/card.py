@@ -20,7 +20,6 @@ card3 = number3, suit3
 card4 = number4, suit4
 card5 = number5, suit5
 
-
 #if the same card appears twice
 if card1 == card2 or card1 == card3 or card1 == card4 or card1 == card5 or card2 == card3 or card2 == card4 or card2 == card5 or card3 == card4 or card3 == card5 or card4 == card5:
     print('Error, regenerating...')
