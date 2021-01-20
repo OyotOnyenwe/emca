@@ -9,7 +9,7 @@ card5 = random.randint(1,52)
 
 
 #if there is a duplicate
-if card1 == card2 or card1 == card3 or card1 == card4 or card1 == card5 or card2 == card3 or card2 == card4 or card2 == card5 or card3 == card4 or card3 == card5 or card4 == card5:
+if card1 in (card2, card3, card4, card5) or card2 in (card3, card4, card5) or card3 in (card4, card5) or card4 in card5:
     print('Error, regenerating...')
     card1 = random.randint(1,52)
     card2 = random.randint(1,52)
