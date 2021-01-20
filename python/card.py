@@ -21,7 +21,7 @@ card4 = number4, suit4
 card5 = number5, suit5
 
 #if the same card appears twice
-if card1 == card2 or card1 == card3 or card1 == card4 or card1 == card5 or card2 == card3 or card2 == card4 or card2 == card5 or card3 == card4 or card3 == card5 or card4 == card5:
+if card1 in (card2, card3, card4, card5) or card2 in (card3, card4, card5) or card3 in (card4, card5) or card4 in card5:
     print('Error, regenerating...')
     
     number1 = random.choice(('ace  ','2    ','3    ','4    ','5    ','6    ','7    ','8    ','9    ','10    ','jack ','queen','king '))
