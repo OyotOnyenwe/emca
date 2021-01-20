@@ -1,4 +1,4 @@
-# speed checker
+# problem 4 on practice packet
 
 speed = float(input('What is the speed in km? '))
 
@@ -14,4 +14,3 @@ else:
         print('Your license has expired.')
     else:
         print('You have accrued', points, 'points.')
-    
