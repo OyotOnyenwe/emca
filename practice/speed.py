@@ -13,4 +13,4 @@ else:
     if points >= 12:
         print('Your license has expired.')
     else:
-        print('You have accrued', points, 'points.')
+        print('You have accrued', int(points), 'points.')
